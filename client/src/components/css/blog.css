@@ -1,0 +1,88 @@
+
+.Blog{
+  display: flex;
+  flex-direction: column;
+  background-color: #F8F8F8;
+  height: 850px;
+  padding-top: 3rem;
+}
+.blog-class{
+  display: flex;
+  gap: 1rem;
+}
+.blog-cards .card h1{
+   
+        display: flex;
+        justify-content: center;
+    
+}
+.card .blog-c-b{
+    text-align: center;
+    padding: 1rem;
+}
+.card-header{
+  gap: 0.5rem;
+  justify-content: center;
+  display: flex;
+}
+
+.blog-cards{
+    justify-content: center;
+}
+.card .c-img{
+  object-fit: cover;
+}
+
+.card-text{
+  font-size: 1.6rem;
+}
+.first{
+    display: flex;
+    gap: 1.5rem;
+}
+swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-pagination {
+    
+    text-align: center;
+    transition: opacity 0.3s;
+    transform: translate3d(0px, 0px, 0px);
+    z-index: 10;
+}
+.res-blog{
+  display: none;
+}
+
+.blog-blog{
+  padding-top: 3rem;
+ }
+  /* the slides */
+ 
+
+.slick-dots li.slick-active button:before {
+
+  color:rgb(243, 50, 50) !important;
+}
+.slick-list .slick-track .slick-slide {
+
+  margin-left: 10px;
+  margin-right: 10px;
+}

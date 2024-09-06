@@ -1,0 +1,35 @@
+
+.Categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+.Categories-nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color:#d3d6da;
+    margin: 0;
+    padding: 0;
+    border-radius: 0.5rem;
+}
+.Categories-nav a{
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.Categories-nav a:hover{
+    background-color: #0D52D6;
+}
+.Categories-nav a:visited{
+    background-color: #0D52D6;
+    border-radius: 1rem;
+
+}
+.res-span{
+    display: none;
+}

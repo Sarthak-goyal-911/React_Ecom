@@ -1,0 +1,45 @@
+
+.featured-category{
+    background-color: #F0F2F5;
+    padding-top: 5rem;
+    padding-bottom: 6.5rem;
+}
+
+.catelogue{
+    display: flex;
+    justify-content: center;
+}
+.cat-right{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+.right-container{
+    display: flex;
+    gap: 1.2rem;
+}
+.cat-left{
+    padding: 3rem;
+    background-color: #D7DADE;
+}
+
+.card-body ul{
+    list-style-type: none;
+}
+.card-body li a{
+    text-decoration: none ;
+    color: black;
+}
+.img-c img{
+    width: 300px;
+    height: 200px;
+}
+
+.res-car{
+    display: none;
+}
+.cat-sliderr{
+    max-width: 1000px;
+}

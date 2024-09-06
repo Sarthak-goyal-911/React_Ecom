@@ -1,0 +1,47 @@
+.most-viewed{
+    background-color: rgba(58, 71, 84, 1);
+    padding: 2rem;
+    height: 250px;
+}
+.head-most{
+    color: white;
+}
+.head-most hr{
+    width: 20%;
+}
+
+.most-card{
+    display: flex;
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 350px;
+    
+}
+.most-card p{
+    font-size: 1.2rem;
+}
+.c-l{
+    height: 105px;
+    width: 100px;
+    img{
+        width: 100px;
+        height: 110px;
+    }
+    object-fit: cover;
+    overflow: hidden;
+    
+}
+.c-r{
+    padding: 1rem;
+}
+.most-items{
+    margin-top: 4rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.most-icons{
+    display: flex;
+    font-size: 2rem;
+    gap: 1rem;
+}

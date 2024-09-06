@@ -1,0 +1,41 @@
+.hero-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgba(58, 71, 84, 1);
+    font-size: 2rem;
+   
+}
+.hero-1{
+    display: flex;
+    gap: 1rem;
+}
+.hero-1 img{
+    height: 5rem;
+    width: 5rem;
+}
+.hero-1{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.hero-1 h3{
+    font-size: 2rem;
+    color: white;
+}
+.hero-1 i{
+    font-size: 5rem;
+}
+.hero-1 p{
+    font-size: 1.4rem;
+    color: rgba(139, 145, 152, 1);
+
+}
+
+.ic{
+    border: 3px solid #0D52D6;
+    padding: 15px;
+    border-radius: 50%;
+}

@@ -1,0 +1,56 @@
+
+.Footer{
+    display: flex;
+    justify-content: center;
+}
+.ab{
+    padding: 5rem;
+    border-left: 1px ;
+}
+.ab ul{
+    list-style-type: none;
+    line-height: 1.9;
+
+}
+.ab a{
+    font-size: 1.8rem;
+}
+.ab p{
+    font-size: 2rem;
+    text-align: left;
+    text-wrap: wrap;
+}
+.ab input{
+    padding: 0.8rem 1rem;
+    font-size: 1.2rem;
+}
+.btn-foot{
+    background-color: #0f3a8d ;
+    color: white;
+    padding: 0.8rem 1rem;
+    font-size: 1.2rem;
+    border-left: none;
+    border-right: none;
+
+}
+
+.foot-last{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgba(58, 71, 84, 1);
+}
+.foot-last p{
+    font-size: 2rem;
+    color: white;
+}
+.foot-last ul{
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+    font-size: 2rem;
+}
+.fooot{
+    display: flex;
+    justify-content: space-between;
+}

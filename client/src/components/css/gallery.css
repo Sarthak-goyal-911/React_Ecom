@@ -1,0 +1,24 @@
+
+.gallery{
+    background-color: rgba(58, 71, 84, 1) ;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+
+}
+
+.img-gallery{
+    padding-top: 3rem;
+}
+
+.imgs{
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-between;
+    overflow: hidden;
+  
+}
+  
+    .img-g{
+        border-radius: 2rem;
+        object-fit: cover;
+    }

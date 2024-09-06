@@ -1,0 +1,146 @@
+
+.products{
+    padding-top: 2rem;
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0F2F5;
+    padding: 0.5rem;
+    margin: 0 0;
+}
+.card-body a{
+    font-size: 1.4rem;
+}
+.title {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.brand {
+    color: grey;
+    font-size: 12px;
+}
+
+ .price {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.price del {
+    color: #888;
+    font-size: 14px;
+    
+}
+ .actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} .actions .quantity {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.actions .quantity input {
+    width: 5rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.actions .quantity button {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.actions .quantity .add-to-cart {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+}
+.det{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.card{
+    width: 100%;
+}
+
+.c-icons i{
+    font-size: 2.2rem;
+}
+.c-icons{
+
+    display: flex;
+    gap: 1.5rem;
+    padding-right: 2rem;
+}
+.p-card{
+    display: flex;
+    gap: 1.3rem;
+    align-items: center;
+    justify-content: center;
+}
+.p-card .card-body{
+    align-items: center;
+    text-align: center;
+}
+.p-btn{
+    background-color:#0D52D6;
+    padding: 8px 12px;
+    font-size: 1.6rem;
+    font-weight: 100;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    height: 40px; /* Set a uniform height */
+    line-height: 1.5; /* Adjusts the text alignment inside */
+    box-sizing: border-box;
+    border-radius: 0.3rem;
+    color: white;
+}
+.det{
+    padding: 1rem;
+}
+.featured{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F8F8F8;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.card .badge-c{
+    position: absolute;
+    right: 0.3rem;
+    top: 0.3rem;
+    background-color: #ffd447; /* Red badge */
+    color: #fff;
+    font-size: 10px;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+.card .pre-order-badge{
+    position: absolute;
+    top: 25px;
+    left: -10px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    transform: rotate(-45deg);
+    background-color: #ff4769; /* Red badge */
+    color: #fff;
+    text-align: center;
+    padding: 0px 23px;
+    font-size: 10px;
+  
+}
+.about .res-product{
+    display: none;
+}
